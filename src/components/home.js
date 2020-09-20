@@ -39,7 +39,7 @@ class HomeComponent extends React.Component {
   componentDidMount() {
     document.addEventListener("DOMContentLoaded", function () {
       var elems = document.querySelectorAll(".carousel");
-      var instances = M.Carousel.init(elems);
+      M.Carousel.init(elems);
 
       //   window.next = function () {
       //     var el = document.querySelector(".carousel");

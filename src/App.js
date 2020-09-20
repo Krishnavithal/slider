@@ -8,7 +8,7 @@ class App extends React.Component {
       <>
         <nav>
           <div className="nav-wrapper" style={{ backgroundColor: "white" }}>
-            <a href="#" className="brand-logo" style={{ color: "black" }}>
+            <a href className="brand-logo" style={{ color: "black" }}>
               SwiftLearn
             </a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
